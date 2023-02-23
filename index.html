@@ -8,27 +8,57 @@
     <title>Vite App</title>
   </head>
   <body>
-    <header class="p-8">
-<<<<<<< HEAD
+    <header class="p-10 bg-[#ffb5e8]">
       <h1 class="text-5xl text-center font-bold">Alexandras Dröm</h1>
-=======
-      <h1 class="text-2xl">Alexandras Dröm</h1>
->>>>>>> 164208f (add beach img)
+      <img
+        src="assets/paw-print-bold-svgrepo-com.svg"
+        alt="paw print"
+        class="w-20 h-20 mx-auto"
+      />
     </header>
-    <main class="p-4">
-      <p class="text-red-600">
-        This is a simple example of how to use Tailwind CSS in your project.
-      </p>
+
+    <main>
+      <div
+        class="bg-[url('/assets/argentinianbeach.png')] h-screen bg-center bg-cover bg-no-repeat relative"
+      >
+        <img
+          class="alexandra absolute b-0"
+          src="/assets/Alexandra-1024x604.png"
+        />
+        <h2 class="text-white">Argentina</h2>
+      </div>
+
       <div class="bg-gray-300 p-4 rounded-lg">
         <button
           class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
         >
-          Click me
+          KÖP RESA
         </button>
+        <button
+          class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
+        >
+          KÖÖP
+        </button>
+        <button
+          class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
+        >
+          KÖÖÖP
+        </button>
+      </div>
+
+      <div class="bg-gray-300 p-4 rounded-lg mt-6">
+        <img />
+        <h2 class="text-center text-2xl">Day 3: Beach Day</h2>
+        <ul class="p-4 text-black-500 list-disc list-inside">
+          <li>Day trip to Montazah Beach</li>
+          <li>Relax on the beach and swim in the Mediterranean Sea</li>
+          <li>Lunch at a beachside restaurant</li>
+          <li>Visit the Montazah Palace Gardens</li>
+        </ul>
       </div>
     </main>
     <footer class="bg-blue-500 text-white p-4 text-center">
-      <p>Alexandra kontaktuppgifter: alexandra@medieinsitutet.se </p>
+      <p>Alexandra kontaktuppgifter: alexandra@medieinsitutet.se</p>
     </footer>
     <script type="module" src="/main.js"></script>
   </body>
