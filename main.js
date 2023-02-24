@@ -1,4 +1,3 @@
-console.log("Hej hej");
 const openBtn = document.querySelector(".openBtn");
 const closeBtn = document.querySelector(".closeBtn");
 
@@ -11,5 +10,4 @@ function toggleClass() {
   hamburger.classList.toggle("visible");
   closeBtn.classList.toggle("hidden");
   openBtn.classList.toggle("hidden");
-  console.log("Klicka");
 } 
