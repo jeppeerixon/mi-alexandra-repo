@@ -12,4 +12,5 @@ function myFunction() {
   closeBtn.classList.toggle("hidden");
   menuBtn.classList.toggle("hidden");
   console.log("Klicka");
-} 
+}
+
