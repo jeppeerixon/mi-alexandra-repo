@@ -1,94 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
 
-    <link rel="stylesheet" href="./index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <header class="p-10 bg-[#ffb5e8]">
-      <h1 class="text-5xl text-center font-bold">Alexandras Dröm</h1>
-      <img
-        src="assets/paw-print-bold-svgrepo-com.svg"
-        alt="paw print"
-        class="w-20 h-20 mx-auto"
-      />
-    </header>
-    <button class="openBtn visible">KLICKA</button>
-    <nav class="menu">
-      <button class="closeBtn hidden">STÄNG</button>
-      <ul>
-        <li>Hem</li>
-        <li>Om oss</li>
-        <li>Kontakt</li>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
 
-    <main>
-      <div
-        class="bg-[url('/assets/argentinianbeach.png')] h-screen bg-center bg-cover bg-no-repeat relative"
-      >
-        <img
-          class="alexandra absolute b-0"
-          src="/assets/Alexandra-1024x604.png"
-        />
-        <h2 class="text-white">Argentina</h2>
-      </div>
-      <div class="bg-gray-300 p-4 rounded-lg">
-        <button
-          class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
-        >
-          KÖP RESA
-        </button>
-        <button
-          class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
-        >
-          KÖÖP
-        </button>
-        <button
-          class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600"
-        >
-          KÖÖÖP
-        </button>
-      </div>
+  <link rel="stylesheet" href="./index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
 
-      <div class="bg-gray-300 p-4 rounded-lg mt-6">
-        <img />
-        <h2 class="text-center text-2xl">Day 1: Arrival in Argentina</h2>
+<body>
+  <header class="p-10 bg-[#ffb5e8]">
+    <h1 class="text-5xl text-center font-bold">Alexandras Dröm</h1>
+    <img src="assets/paw-print-bold-svgrepo-com.svg" alt="paw print" class="w-20 h-20 mx-auto" />
+  </header>
+  <button class="openBtn visible">KLICKA</button>
+  <nav class="menu">
+    <button class="closeBtn hidden">STÄNG</button>
+    <ul>
+      <li>Hem</li>
+      <li>Om oss</li>
+      <li>Kontakt</li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="bg-[url('/assets/argentinianbeach.png')] h-screen bg-center bg-cover bg-no-repeat relative">
+      <img class="alexandra absolute b-0" src="/assets/Alexandra-1024x604.png" />
+      <h2 class="text-white">Argentina</h2>
+    </div>
+    <div class="bg-gray-300 p-4 rounded-lg">
+      <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600">
+        KÖP RESA
+      </button>
+      <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600">
+        KÖÖP
+      </button>
+      <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-600">
+        KÖÖÖP
+      </button>
+    </div>
+
+    <div class="bg-gray-300 p-4 rounded-lg mt-6 flex flex-col items-center py-72">
+      <img />
+      <div class="w-90">
+        <h2 class="text-2xl">Day 1: Arrival in Argentina</h2>
         <ul class="p-4 text-black-500 list-disc list-inside">
           <li>Check into hotel</li>
           <li>Explore the local area and get a feel for the city</li>
           <li>Dinner at a local restaurant</li>
         </ul>
       </div>
+    </div>
 
-      <div class="bg-gray-300 p-4 rounded-lg mt-6">
-        <img />
-        <h2 class="text-center text-2xl">Day 2: Beach Day</h2>
-        <ul class="p-4 text-black-500 list-disc list-inside">
+    <div class="bg-gray-300 p-4 rounded-lg mt-6 flex flex-col items-center py-72">
+      <img />
+      <div class="w-90">
+        <h2 class="text-2xl">Day 2: Beach Day</h2>
+
+        <ul class="p-4 text-black-500 list-disc list-inside ">
           <li>Day trip to Montazah Beach</li>
           <li>Relax on the beach and swim in the Mediterranean Sea</li>
           <li>Lunch at a beachside restaurant</li>
           <li>Visit the Montazah Palace Gardens</li>
         </ul>
+
       </div>
-      <div class="bg-gray-300 p-4 rounded-lg mt-6">
-        <img />
-        <h2 class="text-center text-2xl">Day 3: Museums and History</h2>
+    </div>
+    <div class="bg-gray-300 p-4 rounded-lg mt-6 flex flex-col items-center py-72">
+      <img />
+      <div class="w-90">
+        <h2 class="text-2xl p-4">Day 3: Museums and History</h2>
         <ul class="p-4 text-black-500 list-disc list-inside">
-           <li>Visit the National Museum of Argentina</li>
-           <li>Explore the Catacombs of Kom El Shoqafa</li>
-           <li>Lunch at a local restaurant</li>
-           <li>Visit the City Argentina Library</li>
-           <li>Sunset at the Citadel of Qaitbay</li>
+          <li>Visit the National Museum of Argentina</li>
+          <li>Explore the Catacombs of Kom El Shoqafa</li>
+          <li>Lunch at a local restaurant</li>
+          <li>Visit the City Argentina Library</li>
+          <li>Sunset at the Citadel of Qaitbay</li>
         </ul>
       </div>
-      <div class="bg-gray-300 p-4 rounded-lg mt-6">
-        <img />
-        <h2 class="text-center text-2xl">Day 4: Food and Drink</h2>
+    </div>
+    <div class="bg-gray-300 p-4 rounded-lg mt-6 flex flex-col items-center py-72">
+      <img />
+      <div class="w-90">
+        <h2 class="text-2xl p-4">Day 4: Food and Drink</h2>
         <ul class="p-4 text-black-500 list-disc list-inside">
           <li>Visit the local markets to sample local foods and spices</li>
           <li>Lunch at a local restaurant</li>
@@ -96,9 +93,11 @@
           <li>Dinner at a rooftop restaurant with a view of the city</li>
         </ul>
       </div>
-      <div class="bg-gray-300 p-4 rounded-lg mt-6">
-        <img />
-        <h2 class="text-center text-2xl">Day 5: Argentina By Night</h2>
+    </div>
+    <div class="bg-gray-300 p-4 rounded-lg mt-6 flex flex-col items-center py-72">
+      <img />
+      <div class="w-90">
+        <h2 class="text-2xl">Day 5: Argentina By Night</h2>
         <ul class="p-4 text-black-500 list-disc list-inside">
           <li>Visit the Stanley Bridge for sunset views</li>
           <li>Explore the Montazah Palace at night</li>
@@ -106,10 +105,12 @@
           <li>Visit a local bar for drinks and live music</li>
         </ul>
       </div>
-    </main>
-    <footer class="bg-blue-500 text-white p-4 text-center">
-      <p>Alexandra kontaktuppgifter: alexandra@medieinsitutet.se</p>
-    </footer>
-    <script type="module" src="/main.js"></script>
-  </body>
+    </div>
+  </main>
+  <footer class="bg-blue-500 text-white p-4 text-center">
+    <p>Alexandra kontaktuppgifter: alexandra@medieinsitutet.se</p>
+  </footer>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
