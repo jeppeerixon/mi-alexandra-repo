@@ -5,13 +5,21 @@
   <meta charset="UTF-8" />
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗺️</text></svg>">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="./index.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
 </head>
 
 <body>
+  <nav class="menu">
+    <span class="closeBtn material-symbols-outlined hidden">
+      close
+      </span>
+      <li><a href="#">Hem</a></li>
+      <li><a href="#">Om oss</a></li>
+      <li><a href="#">Kontakt</a></li>
+  </nav>
   <header class="p-10 bg-[#ffb5e8]">
     <h1 class="text-5xl text-center font-bold">Alexandras Dröm</h1>
     <img src="assets/paw-print-bold-svgrepo-com.svg" alt="paw print" class="w-20 h-20 mx-auto" />
@@ -19,14 +27,7 @@
   <span class="material-symbols-outlined openBtn visible">
     menu
     </span>
-    <nav class="menu">
-      <span class="closeBtn material-symbols-outlined hidden">
-        close
-        </span>
-        <li><a href="#">Hem</a></li>
-        <li><a href="#">Om oss</a></li>
-        <li><a href="#">Kontakt</a></li>
-    </nav>
+
 
   <main>
     <div class="bg-[url('/assets/argentinianbeach.png')] h-screen bg-center bg-cover bg-no-repeat relative">
