@@ -9,8 +9,13 @@ nav {
 
 @media (width < 500px) {
     nav {
+        background-color: #ffb5e8;
+        top: 0;
         display: none;
-
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        z-index: 10;
     }
 
     .visible{
