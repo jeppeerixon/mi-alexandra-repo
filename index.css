@@ -5,11 +5,25 @@
 nav {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
     width: 100vw;
+    top: 0;
+    position: relative;
+    background-color: #ffb5e8;
+    align-content: space-around;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
-nav li{
+
+nav li {
     list-style: none;
+    padding-left: 20px;
+    left: 43%;
+    position: relative;
+}
+
+a:hover {
+    color: white;
 }
 
 .openBtn{
@@ -26,6 +40,12 @@ nav li{
         position: sticky;
         z-index: 10;
         font-size: xx-large;
+    }
+
+    nav li {
+        position: relative;
+        left: 0;
+        top: 10%
     }
 
     header {
