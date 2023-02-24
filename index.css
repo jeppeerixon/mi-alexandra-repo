@@ -5,11 +5,50 @@
 nav {
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    top: 0;
+    position: relative;
+    background-color: #ffb5e8;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 10px;
+    left: 45%;
+    position: relative;
+}
+
+a:hover {
+    color: white;
+}
+
+.openBtn{
+    display: none;
 }
 
 @media (width < 500px) {
     nav {
+        background-color: #ffb5e8;
+        top: 0;
         display: none;
+        width: 100vw;
+        height: 100vh;
+        position: sticky;
+        z-index: 10;
+        font-size: xx-large;
+    }
+
+    nav li {
+        position: relative;
+        left: 25%;
+        top: 25%;
+        margin-bottom: 60px;
+    }
+
+    header {
+        z-index: -10;
     }
     .visible{
         display: block;
@@ -17,7 +56,6 @@ nav {
     .hidden {
         display: none;
     }
-}
 
 .dropdown {
     text-align: center;
@@ -54,3 +92,12 @@ nav {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+    .closeBtn, .openBtn
+    {
+        top: 0;
+        right: 0;
+        position: absolute;    
+    }
+}
+
