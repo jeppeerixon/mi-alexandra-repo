@@ -5,6 +5,12 @@
 nav {
     display: flex;
     flex-direction: row;
+    align-content: space-between;
+    width: 100vw;
+}
+
+.openBtn{
+    display: none;
 }
 
 @media (width < 500px) {
@@ -16,13 +22,22 @@ nav {
         height: 100vh;
         position: sticky;
         z-index: 10;
-    }
 
+    }
+    header {
+        z-index: -10;
+    }
     .visible{
         display: block;
     }
 
     .hidden {
         display: none;
+    }
+    
+    .closebtn
+    {
+        right: 0;
+        top: 0;
     }
 }
