@@ -42,7 +42,7 @@ a:hover {
 
     nav li {
         position: relative;
-        left: 0;
+        left: 25%;
         top: 25%;
         margin-bottom: 60px;
     }
@@ -62,6 +62,6 @@ a:hover {
     {
         top: 0;
         right: 0;
-        position: fixed;    
+        position: absolute;    
     }
 }
