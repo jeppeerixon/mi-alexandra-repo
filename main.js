@@ -1,23 +1,15 @@
-import './index.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+console.log("Hej hej");
+const menuBtn = document.querySelector(".openBtn");
+const closeBtn = document.querySelector(".closeBtn");
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+menuBtn.addEventListener("click", myFunction);
+closeBtn.addEventListener("click", myFunction);
 
-setupCounter(document.querySelector('#counter'))
+
+function myFunction() {
+  const hamburger = document.querySelector(".menu");
+  hamburger.classList.toggle("visible");
+  closeBtn.classList.toggle("hidden");
+  menuBtn.classList.toggle("hidden");
+  console.log("Klicka");
+} 

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (width < 500px) {
+    nav {
+        display: none;
+
+    }
+
+    .visible{
+        display: block;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
