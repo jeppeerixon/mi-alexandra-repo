@@ -11,12 +11,14 @@ nav {
     background-color: #ffb5e8;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav li {
+    font-size: 48px;
     list-style: none;
-    padding-left: 10px;
-    left: 45%;
+    padding-left: 30px;
+    left: 30%;
     position: relative;
 }
 
